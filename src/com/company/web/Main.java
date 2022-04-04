@@ -32,6 +32,21 @@ public class Main {
 //            array[j+1]=current;
 //        }
 
+        // Choise
+//        for (int i = 0; i <array.length ; i++) {
+//            Integer min=array[i];
+//            Integer minId=i;
+//            for (int j = i+1; j <array.length ; j++) {
+//                if(array[j]<min){
+//                    min=array[j];
+//                    minId=j;
+//                }
+//            }
+//            Integer temp1=array[i];
+//            array[i]=min;
+//            array[minId]=temp1;
+//        }
+
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
